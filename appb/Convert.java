@@ -81,5 +81,6 @@ public class Convert {
         inches = in.nextInt();
         result = toMetric(feet, inches);
         System.out.printf("That's %.2f cm\n", result);
+        in.close();
     }
 }
